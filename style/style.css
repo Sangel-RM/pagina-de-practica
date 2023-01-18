@@ -1,0 +1,130 @@
+/* pantalla de 1040px */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+body .creador{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 34px;
+    color: #eaecef;
+    opacity: 0.7;
+    font-size: 12px;
+}
+body{
+    background-color: #151e33;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+main .creador{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 38px;
+    font-size: 12px;
+    opacity: 0.8;
+    color: #eaecef;
+}
+main{
+    background-color: #1d2a47;
+    width: 40%;
+    height: 80%;
+    border-radius: 10px;
+}
+
+header .register {
+    text-align: end;
+    margin: 35px;
+    color: #eaecef;
+    font-size: 12px;
+}
+.link{
+    color: #b06c86;
+    text-decoration: none;
+}
+.link:hover{
+    color: #eaecef;
+    text-decoration: underline;
+}
+section h1 {
+    margin-bottom: 15px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+section p{
+    color: white;
+    width: 55%;
+    display: flex;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 13px;
+}
+section form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+section form label{
+    color: #eaecef;
+    width: 50%;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    font-size: 13px;
+}
+section form .input-section {
+    width: 50%;
+    height: 45px;
+    border-radius: 5px;
+    border: 1px solid #40547f;
+    background-color: #1e2b49;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #eaecef;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+section form .input-submit{
+    width: 50%;
+    height: 45px;
+    margin-top: 20px;
+    border-radius: 5px;
+    background-color: #e3627f;
+    border: 1px solid #8b4864;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+section form .input-submit:hover{
+    background-color: transparent;
+    color: white;
+}
+footer{
+    height: 70px;
+    width: 80%;
+    background-color: #202e4e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    border-radius: 5px;
+}
+footer p{
+    width: 80%;
+    font-size: 13px;
+    margin: 0 auto;
+    color: #606c87;
+}
